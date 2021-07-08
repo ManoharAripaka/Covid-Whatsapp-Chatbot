@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["hai","hi","hello","good","hola","hey"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See", "you", "later", "Goodbye"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["thanks", "thank", "you", "that's", "helpful", "Awesome","great"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "info",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses"],
+         "responses": ["The WHO states that corona virus is a large family of viruses that causes illness ranging from the common cold to severe lung infection. COVID19 is the disease caused by a SARS-CoV2. Currently second wave of covid-19 running in India\nFor more vist: https://www.who.int/health-topics/coronavirus#tab=tab_1"],
+         "context": [""]
+        },
+        {"tag": "precautions",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","precaution","safety","measure"],
+         "responses": ["Maintain Social Distance, Wear masks, Use sanitizer, Use Face shield and get vaccinated as soon as possible"],
+         "context": [""]
+        },
+        {"tag": "symptoms",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","symptom"],
+         "responses": ["*MOST COMMON SYMPTOMS:* Fever, Dry cough, Tiredness \n*LESS COMMON SYMPTOMS:* Aches and pains, Sore throat, Diarrhoea, Conjunctivitis, Headache, Loss of taste or smell, Skin rashes \n*SERIOUS SYMPTOMS:* Difficulty breathing or shortness of breath, Chest pain or pressure, Loss of speech or movement"],
+         "context": [""]
+        },
+        {"tag": "severe",
+         "patterns": ["severe","severity","severeness"],
+         "responses": ["Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness, which leads to death."],
+         "context": [""]
+        },
+        {"tag": "treatment",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","symptom","should","have","precaution","treatment","home","remedies","medication","tablets","medicine","self","isolation","quarantine","isolate"],
+          "responses": ["Self isolate or Quarantine for atleast 14 days\n*Rest:* It can make you feel better and may speed your recovery.\n*Stay home:* Don't leave your house unless its emergency.\n*Drink fluids:* You lose more water when you're sick, dehydration can make symptoms worse and cause other health problems.\n*Monitor:* If your symptoms get worse, call your doctor right away. Don't go to their office without calling first.\n*Ask your doctor about over-the-counter medicines that may help, like acetaminophen to lower your fever and other symptoms.*\n*Common Medicines:* Dolo 650 mg, Azithromycin 500 mg, Montek LC, Betadine for mouthwash and gargles, Vitamin C and D3, B Complex and Zincovit tablets"],
+          "context": [""]
+        },
+        {"tag": "food",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","food","diet","eat"],
+         "responses": ["Reduce foods such as red and fatty meats, butter and full-fat dairy products, palm oil, coconut oil, solid shortening and lard. Avoid Trans fats as much as possible. Read nutrition labels to ensure that partially hydrogenated oils are not listed in the ingredients"],
+         "context": [""]
+        },
+        {"tag": "spread",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","spread","infect","infiection"],
+         "responses": ["A person can be infected when aerosols or droplets containing the virus are inhaled or come directly into contact with the eyes, nose, or mouth."],
+         "context": [""]
+        },
+        {"tag": "life",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","life","last"],
+         "responses": ["Recent research evaluated the survival of the COVID-19 virus on different surfaces and reported that the virus can remain viable for up to 72 hours on plastic and stainless steel, up to four hours on copper, and up to 24 hours on cardboard"],
+         "context": [""]
+        },
+        {"tag": "death",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","death","update","case","recover"],
+         "responses": ["For live updates in india vist: https://www.covid19india.org/\nFor worldwide updates vist: https://www.worldometers.info/coronavirus/"],
+         "context": [""]
+        },
+        {"tag": "variant",
+         "patterns": ["variant","strain","covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses"],
+         "responses": ["B.1.1.7, which was first detected in the U.K.\nB.1.351, first detected in South Africa\nP.1 and P.2, first detected in Brazil\nB.1525, first detected in the U.K. and Nigeria\nB.1427/B.1429, first detected in the U.S.\nP.3, first detected in Japan and the Philippines\nS477N, first detected in the U.S.\nB.1.616, first detected in France"],
+         "context": [""]
+        },
+        {"tag": "vaccine",
+         "patterns": ["covid","covid19","covid-19","corona","coronavirus","corona virus","coronaviruses","vaccine","vaccination"],
+         "responses": ["Vaccines available in India: Covishiels, Covaxin, Sputnik-V\nBook your slot in https://www.cowin.gov.in/home and get vaccinated as soon as possible"],
+         "context": [""]
+        },
+        {"tag": "bot",
+         "patterns": ["who","you","u","name","what"],
+         "responses": ["Im a Chatbot, designed to assist you regarding COVID-19"],
+         "context": [""]
+        },
+        {"tag": "fine",
+         "patterns": ["how","you","u"],
+         "responses": ["Im fine, thanks for asking"],
+         "context": [""]
+        }
+   ]
+}
